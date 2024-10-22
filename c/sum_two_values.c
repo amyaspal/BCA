@@ -4,18 +4,12 @@
 #include <conio.h>
 
 int main() {
-    int num_people, toes, total_toes = 0;
-
-    printf("Enter the number of people: ");
-    scanf("%d", &num_people);
-
-    for (int i = 1; i <= num_people; i++) {
-        printf("Enter the number of toes for person %d: ", i);
-        scanf("%d", &toes);
-        total_toes += toes;
-    }
-
-    printf("The total number of toes is: %d\n", total_toes);
-
+    int num1, num2, sum;
+    printf("Enter the first number: ");
+    scanf("%d", &num1);
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+    sum = num1 + num2;
+    printf("The sum of %d and %d is %d\n", num1, num2, sum);
     return 0;
 }
