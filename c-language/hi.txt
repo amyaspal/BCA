@@ -1,1 +1,11 @@
 pm disable-user --user 0 com.sec.enterprise.knox.cloudmdm.smdms
+
+
+
+pm disable-user --user 0 com.sec.enterprise.knox.cloudmdm.smdms
+
+pm uninstall -k --user 0 com.sec.enterprise.knox.cloudmdm.smdms
+
+pm disable-user --user 0 com.samsung.android.mdm
+
+pm uninstall -k --user 0 com.samsung.android.mdm
